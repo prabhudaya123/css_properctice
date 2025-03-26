@@ -1,0 +1,45 @@
+/* the  pseudo class selectors are mainly two types
+1.dynamic pseudo class selectord
+2.stractural pseudo class selectors */
+
+
+
+
+/* now this site we are discouse the some dynamic pseudo class selectors */
+
+/*it is used for input tag and anchor tag especially .
+* it is also calles as anchor pseudo selectore
+* it is anable you to an element when ever the mouse pointer is kept over it
+
+*/
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: yellow;
+}
+a:active{
+    color: chartreuse;
+    background-color: grey;
+
+} 
+#d1:focus{
+    background-color: blue;
+    color: red;
+}
+#d2:checked{
+    accent-color: pink;
+    width: 100px;
+    height: 100px;
+}
+div:hover{
+    border: 2px solid;
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+    cursor: no-drop;
+
+
+}

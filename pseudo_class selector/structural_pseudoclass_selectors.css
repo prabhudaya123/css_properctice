@@ -1,0 +1,19 @@
+div>h1:first-child{
+    background-color: red;
+}
+div>h2:last-child{
+    background-color: green;
+}
+div>h3:first-of-type{
+    background-color: pink;
+}
+div>h3:last-of-type{
+    background-color: beige; 
+}
+/* div>h3:nth-child(7){
+    background-color: red;
+}
+
+div>h2:nth-of-type(odd){
+    background-color: pink;
+} */

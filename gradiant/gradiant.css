@@ -1,0 +1,49 @@
+div{
+    border:2px solid;
+    height: 200px;
+    width: 200px;
+}
+/* to bottum is default */
+#d1{
+    background: linear-gradient(red,blue,   green,pink,yellow,white,skyblue);
+}
+#d2{
+    background: linear-gradient(to top,red,blue,green,pink,yellow,white,skyblue);
+}
+#d3{
+    background: linear-gradient(to right,red, pink, blue ,yellow,white,black,green);
+}
+#d4{
+    background: linear-gradient(to left,red, pink, blue ,yellow,white,black,green);
+}
+#d5{
+    background: linear-gradient(deg,red, pink, blue ,yellow,white,black,green);
+}
+#d6{
+    background-image: radial-gradient(
+       red,green,yellow,white,red,green,yellow
+
+    );
+}
+#d7{
+    background-image: radial-gradient( farthest-corner at 130% 50% ,red ,green,pink,yellow,white);
+}
+#d8{
+    background-image: radial-gradient( farthest-side at 130% 50% ,red ,green,pink,yellow,white);
+}
+#d9{
+    background-image: radial-gradient(closest-side,red,pink,green, yellow ,white,black);
+}
+#d10{
+    background-image: radial-gradient(closest-side,red,pink,green, yellow ,white,black);
+    border-radius: 50;
+}
+#d12{
+    background: conic-gradient(red,blue,green,yellow,red,green,yellowgreen,red,green,yellow);
+    
+}
+/* #d12:hover{
+    transition-duration: 5s;
+    transform: translate(1000px) rotate(3000deg);
+} */
+    
